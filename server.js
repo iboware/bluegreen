@@ -7,7 +7,7 @@ http.createServer(function(req, res){
   var name = process.env.NAME || 'World';
   var body = '<div style="background-color:blue; color:white"> \
     <h1>Hello '+name+'</h1> \
-     <p>This is a demo page</p> \
+     <p>This is a demo page V1</p> \
      <p>from server: '+hostname+'</p></div>';
   res.end(body);
 }).listen(port, function(){
