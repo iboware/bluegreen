@@ -1,0 +1,11 @@
+{
+  "name": "bluegreen",
+  "version": "1.0.0",
+  "description": "Sample node js application",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node spec"
+  },
+  "author": "Ibrahim Varol",
+  "license": "MIT"
+}
